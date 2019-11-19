@@ -1,0 +1,15 @@
+<odoo>
+	<record id="dueS" model="ir.ui.view" >
+            <field name="name">dueS</field>
+            <field name="model">sale.order</field>
+            <field name="type">form</field>
+            <field name="inherit_id" ref="sale.view_order_form" />
+            <field name="arch" type="xml">
+
+
+                 <xpath expr="//field[@name='validity_date']" position="after">
+                      <field name="date_dueS" string="fecha de vencimiento" /> 
+                </xpath>
+          </field>
+    </record>
+</odoo>
