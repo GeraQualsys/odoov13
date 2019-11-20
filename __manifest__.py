@@ -1,5 +1,5 @@
 {
-    'name': 'Modificaciones en modulos compras, ventas y inventario',
+    'name': 'Modificaciones en modulos compras, ventas e inventario',
     'version': '1.2',
     'category': 'Uncategorized',
     'sequence': 0,
