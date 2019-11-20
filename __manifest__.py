@@ -9,7 +9,7 @@
     'description':'''Cambios realizados en los módulos de 
     Ventas: Se agrego la cuenta analítica como un campo requerido.
     Compras: Se agrego un la cuenta analítica como un campo requeido.
-    Campo de fecha de validez agregado en las solicitudes de compras y fecha de vencimiento de la cotización de compra''',
+    Campos de: fecha de validez agregado en las solicitudes de compras y fecha de vencimiento de la cotización de compra''',
     
     'website': 'https://www.qualsys.com,mx',
     'depends': ['purchase', 'sale_management'],
