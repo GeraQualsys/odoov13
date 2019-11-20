@@ -1,15 +1,16 @@
 {
-    'name': 'cambios',
+    'name': 'Modificaciones en modulos compras, ventas y inventario',
     'version': '1.2',
     'category': 'Uncategorized',
-    'sequence': 60,
-    'summary': '''Cambios realizados en los módulos de 
+    'sequence': 0,
+    'author':'Qualsys consulting'
+    'summary': '''Se agregaron campos y se hicieron campos requeridos. 
+    ''',
+    'description':'''Cambios realizados en los módulos de 
     Ventas: Se agrego la cuenta analítica como un campo requerido.
     Compras: Se agrego un la cuenta analítica como un campo requeido.
-    Campo de fecha de validez agregado en las solicitudes de compras y fecha de vencimiento de la cotización de compra
+    Campo de fecha de validez agregado en las solicitudes de compras y fecha de vencimiento de la cotización de compra''',
     
-    ''',
-    'description': "Modificaciones en los Modelos de Ventas y Compras",
     'website': 'https://www.qualsys.com,mx',
     'depends': ['purchase', 'sale_management'],
     'data': [
@@ -23,5 +24,4 @@
     ],
     'installable': True,
     'auto_install': False,
-    'application': True,
 }
