@@ -3,7 +3,7 @@
     'version': '1.2',
     'category': 'Uncategorized',
     'sequence': 0,
-    'author':'Qualsys consulting'
+    'author':'Qualsys consulting',
     'summary': '''Se agregaron campos y se hicieron campos requeridos. 
     ''',
     'description':'''Cambios realizados en los módulos de 
